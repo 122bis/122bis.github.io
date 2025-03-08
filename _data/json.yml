@@ -21,12 +21,12 @@
     - key: Address 
       value: 29600 Morlaix 
     - key: Scan... 
-      value: [->]
+      value: \[->\]
       url: "/122bis.svg"
       
 - key: Coding....
-  value: [->]
+  value: \[->\]
   url: /gif.html
 - key: Artefacts.
-  value: [->]
+  value: \[->\]
   url: /gif.html
