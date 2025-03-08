@@ -1,10 +1,8 @@
-- key: Name
-  value: Place Holder
-- key: Description
+- key: 122bis
   value:
-    - Hello!
-    - This tiny website
-    - Looks like JSON
+    - tiny website 
+    - steel artefacts
+    - creative coding in c
   typed: true
 - key: CV
   value: cv.pdf
