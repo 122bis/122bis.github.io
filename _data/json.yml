@@ -20,11 +20,13 @@
       value:  50, rue Basse
     - key: Address 
       value: 29600 Morlaix 
-    - key: Scan 
-      value: ->
+    - key: Scan... 
+      value: ==>
       url: "/122bis.svg"
       
 - key: Coding
-  value: here
+  value: ==>
   url: /gif.html
-
+- key: Artefacts
+  value: ==>
+  url: /gif.html
