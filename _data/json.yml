@@ -20,6 +20,8 @@
       value:  50, rue Basse
     - key: Address 
       value: 29600 Morlaix 
+    - key: Address 
+      value: Brittany, France 
     - key: Scan... 
       value: ==>
       url: "/122bis.svg"
