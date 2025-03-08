@@ -1,9 +1,9 @@
 - key: 122bis
-  value:
-    - tiny website
-    - steel artefacts
-    - creative coding in c 
-  typed: true
+value:
+   - tiny website
+   - steel artefacts
+   - creative coding in c 
+   typed: true
       
 - key: Projects
 value:
@@ -15,7 +15,7 @@ value:
     url: "/gif.html"
     
 - key: Contact
-  value:
+value:
     - key: Name... 
       value: Michel S.
     - key: Phone.. 
