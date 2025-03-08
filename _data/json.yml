@@ -1,0 +1,38 @@
+- key: 122bis
+  value:
+    - tiny website
+    - steel artefacts
+    - creative coding in c 
+  typed: true
+      
+- key: Projects
+value:
+  - key: coding
+    value: ->
+    url: "/gif.html"
+  -key: artefacts
+    value: ->
+    url: "/gif.html"
+    
+- key: Contact
+  value:
+    - key: Name... 
+      value: Michel S.
+    - key: Phone.. 
+      value: +33 613 963 772
+    - key: Email.. 
+      value: 122bis@free.fr
+      url: "mailto:122bis@free.fr"
+    - key: Github
+      value: https://github.com/122bis
+      url: "https://github.com/122bis"
+    - key: Address 
+      value:  50, rue Basse
+    - key: Address 
+      value: 29600 Morlaix 
+    - key: Scan 
+      value: ->
+      url: "/122bis.svg"
+      
+
+
