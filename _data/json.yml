@@ -10,7 +10,7 @@ value:
   - key: coding
     value: ->
     url: "/gif.html"
-  -key: artefacts
+  - key: artefacts
     value: ->
     url: "/gif.html"
     
