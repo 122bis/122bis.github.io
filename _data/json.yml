@@ -4,33 +4,27 @@
     - steel artefacts
     - creative coding in c
   typed: true
-- key: CV
-  value: cv.pdf
-  url: /cv.pdf
-- key: Address
-  value:
-    - University of Jekyll
-    - Department of Themes
-    - 123 Main St, Anytown, USA
 - key: Contact
   value:
-    - key: Office
-      value: Foobar Hall 1.23
-    - key: Phone
-      value: +1 234 567 890
-    - key: Email
-      value: username@domain.com
-      url: "mailto:username@domain.com"
-- key: Source
-  value: piazzai/hacked-jekyll
-  url: https://github.com/piazzai/hacked-jekyll
-- key: Profiles
-  value:
-    - value: Instagram
-      url: https://www.instagram.com
-    - value: LinkedIn
-      url: https://www.linkedin.com
-    - value: StackOverflow
-      url: https://stackoverflow.com
-    - value: GitHub
-      url: https://github.com
+    - key: Name...
+      value: Michel s.
+    - key: Phone..
+      value: +33 613 963 772
+    - key: Email..
+      value: 122bis@free.fr
+      url: "mailto:122bis@free.fr"
+    - key: Github.
+      value: https://github.com/122bis
+      url: "https://github.com/122bis"
+    - key: Address 
+      value:  50, rue Basse
+    - key: Address 
+      value: 29600 Morlaix 
+    - key: Scan 
+      value: ->
+      url: "/122bis.svg"
+      
+- key: Coding
+  value: here
+  url: /gif.html
+
