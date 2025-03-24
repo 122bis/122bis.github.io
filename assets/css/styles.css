@@ -18,8 +18,8 @@ body {
     font-family: "hack", monospace;
     font-size: 16px;
     font-weight: 400;
-    background-color: var(--oc-gray-9);
-    color:var(--oc-green-9)
+    background-color: #212529;
+    color:#2b8a3e
 }
 
 main {
@@ -54,7 +54,7 @@ a {
 }
 
 a:hover, a:active {
-    color:var(--oc-green-5)
+    color: #51cf66
 }
 
 #json {
@@ -83,12 +83,12 @@ a:hover, a:active {
 }
 
 .key {
-    color: var(--oc-green-4);
+    color: #69db7c;
     text-transform:lowercase
 }
 
 .error, .value {
-    color: var(--oc-green-4);
+    color: #69db7c;
     text-transform: lowercase
 }
 
