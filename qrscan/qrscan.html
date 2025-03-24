@@ -1,57 +1,46 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="generator" content= <meta charset="UTF-8">
+  <meta name="viewport" content= "width=device-width, initial-scale=1.0">
   <title>qrcode</title>
+  <link rel="icon" type="image/x-icon" href= "../assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href= "../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href= "../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href= "../assets/favicon-16x16.png">
+  <link rel="stylesheet" href="../assets/css/normalize.css">
+  <style>
 
-  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
-  <link rel="manifest" href="../assets/site.webmanifest">
-  <link rel="stylesheet" href="../assets/css/normalize.css" />
-  <link rel="stylesheet" href="../assets/css/open-color.css" />
-  <link rel="stylesheet" href="../assets/css/styles.css" />
-  <script src="../assets/js/typed.umd.js"></script>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #212529;
+  }
+
+    .centered {
+    display: flex;
+          display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 60px;
+            font-family: "hack", monospace;
+            font-size: 21px;
+            font-weight: 400;
+            font-style: bold;
+    }
+  </style>
 </head>
-
 <body>
   <main>
-<img src="./122bis.svg" 
-        height="350px"
-        width="350px"/>
-<div id="json">
-  
-  <div class="my ms">
-    <div id="strings">
-      <span>......^ scan.me ^......</span>    </div>
-    "<span class="value"><span id="typed"></span></span>",
-  </div>
-  
-
-  <div class="my ms">
-    "<span class="key">go.back</span>":
-    "<a class="value" href="../index.html" target="_self"><==</a>"
-  </div>
-  
-</div>
-
+    <p class="centered">
+        <img src="./img/122bis.svg" height="350px" width="350px">
+    </p>
+    <p class="centered">
+        <a href="../index.html" style= "color: #51cf66; text-decoration: none">X</a>
+    </p>
   </main>
-  <script>
-    var typed = new Typed("#typed", {
-      stringsElement: "#strings",
-      backSpeed: 10,
-      typeSpeed: 30,
-      backDelay: 1000,
-      loop: true,
-      smartBackspace: true,
-    });
-  </script>
 </body>
-
 </html>
-
-
