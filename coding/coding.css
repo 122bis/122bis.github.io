@@ -11,6 +11,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-color: #212529;
+    background-color: #f6f6ef;    
   }
 
 .centered {
@@ -76,6 +77,8 @@ body {
 .scrollbar .scrollbar-thumb {
   position: absolute;
   background: #37b24d;
+  background: #ed702d;
+
   top: 0;
   bottom: 0;
   width: 7%;
