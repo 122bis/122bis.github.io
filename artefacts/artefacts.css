@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f6f6ef;
+    background-color: #212529;
   }
 
 .centered {
@@ -63,7 +63,7 @@ body {
 }
 
 .scrollbar .scrollbar-track {
-    background: #798077;
+    background: #495057;
     width: 100%;
     height: 5px;
     display: flex;
@@ -75,7 +75,7 @@ body {
 
 .scrollbar .scrollbar-thumb {
   position: absolute;
-  background-color: #ed702d;
+  background: #37b24d;
   top: 0;
   bottom: 0;
   width: 7%;

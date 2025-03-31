@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "hack";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../webfonts/hack-regular-subset.woff2") format("woff2")
+}
 
 @font-face {
     font-family: "hack";
@@ -11,8 +18,8 @@ body {
     font-family: "hack", monospace;
     font-size: 16px;
     font-weight: 400;
-    background-color: #f6f6ef;
-    color:#ed702d;
+    background-color: #212529;
+    color:#2b8a3e
 }
 
 main {
@@ -47,7 +54,7 @@ a {
 }
 
 a:hover, a:active {
-    color: #cc490c
+    color: #51cf66
 }
 
 #json {
@@ -76,12 +83,12 @@ a:hover, a:active {
 }
 
 .key {
-    color: #ed702d;
+    color: #69db7c;
     text-transform:lowercase
 }
 
 .error, .value {
-    color: #ed702d;
+    color: #69db7c;
     text-transform: lowercase
 }
 
