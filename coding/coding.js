@@ -1,9 +1,30 @@
+function changeExt(fileName, newExt) {
+  var pos = fileName.includes(".") ? fileName.lastIndexOf(".") : fileName.length
+  var fileRoot = fileName.substr(0, pos)
+  var output = `${fileRoot}.${newExt}`
+  return output
+}
+
 const initSlider = () => {
     const imageList = document.querySelector(".wrapper .image-list");
     const slideButtons = document.querySelectorAll(".wrapper .slide-button");
     const sliderScrollbar = document.querySelector(".container .scrollbar");
     const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
     const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+
+    // gif on hover
+    const itm = document.querySelector(".wrapper .image-list .image-item");
+
+    itm.addEventListener('click', function() {
+        itm.src = changeExt(itm.src, 'gif');
+        });
+
+
+
+    itm.addEventListener('mouseout', function() {
+        itm.src = changeExt(itm.src, 'png');
+        });
+
     
     // Handle scrollbar thumb drag
     scrollbarThumb.addEventListener("mousedown", (e) => {
@@ -52,3 +73,4 @@ const initSlider = () => {
 
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+

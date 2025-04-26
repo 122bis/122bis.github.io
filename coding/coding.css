@@ -42,11 +42,11 @@ body {
   font-size: 0;
   list-style: none;
   margin-bottom: 6px;
-  overflow-x: auto;
+  overflow: auto;
   scrollbar-width: none;
 }
 
-.wrapper .image-list::-webkit-scrollbar {
+.wrapper .image-list:-webkit-scrollbar {
   display: none;
 }
 
@@ -54,6 +54,12 @@ body {
   height: 600px;
   object-fit: contain;
 }
+
+.wrapper .image-list .image-item:hover {
+  opacity:.9;
+  cursor: pointer;
+}
+
 
 .container .scrollbar {
   height: 33px;
@@ -95,7 +101,7 @@ body {
   top: -4px;
 }
 
-.scrollbar .scrollbar-thumb::after {
+.scrollbar .scrollbar-thumb:after {
   content: "";
   position: absolute;
   left: 0;
