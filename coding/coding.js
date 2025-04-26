@@ -15,7 +15,7 @@ const initSlider = () => {
     // gif on hover
     const itm = document.querySelector(".wrapper .image-list .image-item");
 
-    itm.addEventListener('click', function() {
+    itm.addEventListener('mouseover', function() {
         itm.src = changeExt(itm.src, 'gif');
         });
 

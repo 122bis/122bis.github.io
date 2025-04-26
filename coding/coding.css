@@ -55,11 +55,6 @@ body {
   object-fit: contain;
 }
 
-.wrapper .image-list .image-item:hover {
-  opacity:.9;
-  cursor: pointer;
-}
-
 
 .container .scrollbar {
   height: 33px;
